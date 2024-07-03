@@ -1,8 +1,10 @@
 
 import './App.css'
 import AboutMe from './Components/AboutMe'
+import Education from './Components/Education'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
+import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 
 function App() {
@@ -22,6 +24,12 @@ function App() {
       </div>
       <div>
         <Skills></Skills>
+      </div>
+      <div>
+        <Projects></Projects>
+      </div>
+      <div>
+        <Education></Education>
       </div>
     </div>
   )
