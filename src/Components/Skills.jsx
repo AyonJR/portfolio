@@ -14,7 +14,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className='border-b border-neutral-800 pb-24'>
+    <div id="skills" className='border-b mx-5 lg:mx-0  border-neutral-800 pb-24'>
       <h1 className='my-20 text-blue-400 text-center text-3xl'>Skills</h1>
       <div className='flex flex-wrap items-center justify-center gap-4'>
         {skills.map((skill, index) => {
